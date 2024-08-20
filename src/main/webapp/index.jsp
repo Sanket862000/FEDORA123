@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Web Page</title>
+    <title>My Home Page</title>
     <style>
         body {
-            background-color: #f0f0f0; /* This is the background color */
-            color: #333; /* This is the text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            margin: 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a paragraph.</p>
+    <div class="header">
+        <h1>Welcome to My Home Page</h1>
+    </div>
+    <div class="content">
+        <p>Hello, this is my home page. I will add more content here soon.</p>
+    </div>
 </body>
 </html>
-
