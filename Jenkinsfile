@@ -3,7 +3,6 @@ pipeline {
     parameters {
   choice choices: ['DEV', 'QA', 'UAT'], description: 'this choice parameter', name: 'ENVIRONMENT'
 }
-}
     stages {
         stage ('chekout') {
             steps {
